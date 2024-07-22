@@ -38,7 +38,7 @@ loginRouter.post("/", (req, response) => {
         switch(err) {
             case 'Im a teapot':
                 response.status(418).json({login: 'fail', reason: 'Im a teapot'});
-                console.log(`Exited with HTTP 401. Reason: Oh no, our database... its broken... :skull:`);
+                console.log(`Exited with HTTP 418. Reason: Oh no, our database... its broken... :skull:`);
                 break;
             
         }
