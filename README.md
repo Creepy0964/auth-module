@@ -2,7 +2,7 @@
 Authentification module written in JavaScript using Node.JS, Express, SQLite3 and CryptoJS. Designed for future use in some of my projects.
 
 ## Routes
-### POST /api/login
+### POST /api/auth/login
 #### Query parameters
 | param    | typeof | required | example_value | desc                       |
 |----------|--------|----------|---------------|----------------------------|
@@ -30,7 +30,7 @@ Authentification module written in JavaScript using Node.JS, Express, SQLite3 an
 }
 ```
 
-### POST /api/register
+### POST /api/auth/register
 #### Query parameters
 | param    | typeof | required | example_value | desc                       |
 |----------|--------|----------|---------------|----------------------------|
